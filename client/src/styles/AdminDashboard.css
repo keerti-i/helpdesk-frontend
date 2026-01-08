@@ -1,0 +1,124 @@
+.category-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.category-table th,
+.category-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.category-table th {
+  background-color: #f0f4f8;
+}
+
+.category-table select,
+.category-table button {
+  padding: 6px;
+  font-size: 14px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f0f4f8;
+}
+
+.user-table select {
+  padding: 6px;
+  font-size: 14px;
+}
+
+/* src/pages/AdminDashboard.css */
+.admin-dashboard-container {
+  padding: 1rem;
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: nowrap;
+}
+
+.dashboard-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  width: 200px;         /* fixed width for equal size */
+  height: 120px;        /* optional: equal height if needed */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.dashboard-card h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #334155;
+}
+
+.dashboard-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0 0;
+}
+
+.dashboard-card.total {
+  border-left: 6px solid #64748b;
+}
+
+.dashboard-card.open {
+  border-left: 6px solid #64748b;
+}
+
+.dashboard-card.inprogress {
+  border-left: 6px solid #64748b;
+}
+
+.dashboard-card.resolved {
+  border-left: 6px solid #64748b;
+}
+
+.dashboard-card.closed {
+  border-left: 6px solid #64748b;
+}
+
+.category-button{
+  background-color:#9d9dbe;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:8px;
+    min-height:30px; 
+    min-width: 90px;
+}
+
+.category-button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #0d0117;
+}

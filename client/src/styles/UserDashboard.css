@@ -1,0 +1,29 @@
+.user-dashboard {
+  padding: 1rem;
+}
+
+.tickets-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tickets-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.add-ticket-icon {
+  font-size: 1.9rem;
+  color: #7c9ed8;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.add-ticket-icon:hover {
+  color: #1d4ed8;
+  transform: scale(1.1);
+}
+

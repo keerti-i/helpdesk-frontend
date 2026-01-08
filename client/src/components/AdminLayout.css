@@ -1,0 +1,68 @@
+
+.admin-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.admin-sidebar {
+  width: 240px;
+  background-color: #0f172a;
+  color: white;
+  padding: 1rem;
+}
+
+.sidebar-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin: 1rem 0;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.sidebar-menu a:hover,
+.sidebar-menu .active {
+  background-color: #1e293b;
+  color: white;
+}
+
+.admin-content {
+  flex-grow: 1;
+  background: #f1f5f9;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.logout-section-1 {
+  margin-top: bottom;
+  padding-top: 14rem;
+}
+
+.logout-button-1 {
+  background-color: hsl(217, 33%, 17%);
+  color: white;
+  border: none;
+  padding: 1rem 6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-button-1:hover {
+  background-color: #32425c;
+}
