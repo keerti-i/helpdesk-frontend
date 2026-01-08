@@ -1,7 +1,7 @@
 This repository contains the **React frontend** for the Helpdesk application.
 
 👉 The **backend API** is in a separate repository:  
-https://github.com/<your-username>/helpdesk-application
+https://github.com/keerti-i/Helpdesk-backend
 
 ## How to run
 
